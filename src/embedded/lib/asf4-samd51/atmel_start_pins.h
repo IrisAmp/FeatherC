@@ -1,0 +1,64 @@
+/*
+ * Code generated from Atmel Start.
+ *
+ * This file will be overwritten when reconfiguring your Atmel Start project.
+ * Please copy examples or other code you want to keep to a separate file
+ * to avoid losing it when reconfiguring.
+ */
+#ifndef ATMEL_START_PINS_H_INCLUDED
+#define ATMEL_START_PINS_H_INCLUDED
+
+#include <hal_gpio.h>
+
+// SAMD51 has 14 pin functions
+
+#define GPIO_PIN_FUNCTION_A 0
+#define GPIO_PIN_FUNCTION_B 1
+#define GPIO_PIN_FUNCTION_C 2
+#define GPIO_PIN_FUNCTION_D 3
+#define GPIO_PIN_FUNCTION_E 4
+#define GPIO_PIN_FUNCTION_F 5
+#define GPIO_PIN_FUNCTION_G 6
+#define GPIO_PIN_FUNCTION_H 7
+#define GPIO_PIN_FUNCTION_I 8
+#define GPIO_PIN_FUNCTION_J 9
+#define GPIO_PIN_FUNCTION_K 10
+#define GPIO_PIN_FUNCTION_L 11
+#define GPIO_PIN_FUNCTION_M 12
+#define GPIO_PIN_FUNCTION_N 13
+
+// https://cdn-learn.adafruit.com/assets/assets/000/101/972/original/arduino_compatibles_Feather_M4_Page.png
+#define FEATHER_PIN_00 GPIO(GPIO_PORTB, 17)
+#define FEATHER_PIN_01 GPIO(GPIO_PORTB, 16)
+
+#define FEATHER_PIN_04 GPIO(GPIO_PORTA, 14)
+#define FEATHER_PIN_05 GPIO(GPIO_PORTA, 16)
+#define FEATHER_PIN_06 GPIO(GPIO_PORTA, 18)
+
+#define FEATHER_PIN_08 GPIO(GPIO_PORTB, 03)
+#define FEATHER_PIN_09 GPIO(GPIO_PORTA, 19)
+#define FEATHER_PIN_10 GPIO(GPIO_PORTA, 20)
+#define FEATHER_PIN_11 GPIO(GPIO_PORTA, 21)
+#define FEATHER_PIN_12 GPIO(GPIO_PORTA, 22)
+#define FEATHER_PIN_13 GPIO(GPIO_PORTA, 23)
+#define FEATHER_PIN_14 GPIO(GPIO_PORTA, 02)
+#define FEATHER_PIN_15 GPIO(GPIO_PORTA, 05)
+#define FEATHER_PIN_16 GPIO(GPIO_PORTB, 08)
+#define FEATHER_PIN_17 GPIO(GPIO_PORTB, 09)
+#define FEATHER_PIN_18 GPIO(GPIO_PORTA, 04)
+#define FEATHER_PIN_19 GPIO(GPIO_PORTA, 06)
+#define FEATHER_PIN_20 GPIO(GPIO_PORTB, 01)
+#define FEATHER_PIN_21 GPIO(GPIO_PORTA, 12)
+#define FEATHER_PIN_22 GPIO(GPIO_PORTA, 13)
+#define FEATHER_PIN_23 GPIO(GPIO_PORTB, 22)
+#define FEATHER_PIN_24 GPIO(GPIO_PORTB, 23)
+#define FEATHER_PIN_25 GPIO(GPIO_PORTA, 17)
+
+#define FEATHER_PIN_34 GPIO(GPIO_PORTB, 10)
+#define FEATHER_PIN_35 GPIO(GPIO_PORTB, 11)
+#define FEATHER_PIN_36 GPIO(GPIO_PORTA, 08)
+#define FEATHER_PIN_37 GPIO(GPIO_PORTA, 09)
+#define FEATHER_PIN_38 GPIO(GPIO_PORTA, 10)
+#define FEATHER_PIN_39 GPIO(GPIO_PORTA, 11)
+
+#endif // ATMEL_START_PINS_H_INCLUDED

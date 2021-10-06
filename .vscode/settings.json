@@ -1,0 +1,9 @@
+{
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "files.insertFinalNewline": true,
+  "files.associations": {
+    "utils.h": "c",
+    "driver_init.h": "c"
+  }
+}
